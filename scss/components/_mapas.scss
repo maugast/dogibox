@@ -1,0 +1,26 @@
+/* MAPAS */
+
+$botonPregunta: (
+    /* Key - Value */
+    border-pregunta:solid  1px  #ffffff,
+    color-pregunta: #ffffff,
+    font-pregunta: 'Raleway', sans-serif
+    position-pregunta: absolute,
+    top-pregunta: 200px,
+    display-pregunta: inline-block,
+    padding-pregunta: 8px 10px,
+    border-radius-pregunta: 25px,
+);
+
+$botonCuenta: (
+    /* Key - Value */
+    border-cuenta:solid  1px  #ffffff,
+    color-cuenta: #ffffff,
+    font-cuenta: 'Raleway', sans-serif
+    position-cuenta: absolute,
+    top-cuenta: 200px,
+    left-cuenta: 300px,
+    display-cuenta: inline-block,
+    padding-cuenta: 8px 10px,
+    border-radius-cuenta: 25px,
+);

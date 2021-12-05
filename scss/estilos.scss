@@ -1,0 +1,547 @@
+
+@import 'base/fuentes';
+@import 'components/navBar';
+@import 'components/footer';
+@import 'base/listas';
+@import 'components/extends';
+@import 'components/mixins';
+@import 'components/mapas';
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* VARIABLES */
+
+$DogiColor: #01abdc;
+
+:root {
+    --animate-delay: 0.5s;
+  }
+
+/* BANNER VIDEO */
+
+#banner-principal{
+    position: relative;
+    top: 6vh;
+    overflow: hidden;
+}
+
+.titulo-principal{
+    max-width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size:nth($titulos, 1);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+
+.boton-saber{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    @extend %botones;
+
+    a{
+        text-decoration: none;
+        text-transform:uppercase;
+        color: #ffffff;
+    }
+}
+
+#banner-principal {
+    video{
+        width: 100%;
+    }
+}
+
+
+/* SECCIÓN COMO FUNCIONA */
+
+.central{
+    margin: 10% 10%;
+}
+
+.titulo-principal-b{
+    font-size: nth($titulos, 3);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+}
+
+
+.tips-comprar{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: nth($titulos, 4);
+    margin: 10px 0;
+}
+
+.spot{
+    text-align: center;
+        p{
+            font-family: 'Raleway', sans-serif;
+        }
+}
+
+/* CAROUSEL */
+
+.carousel{
+    min-height: 300px;
+}
+
+.imgRedonda {
+    position: relative;
+    margin: 20px 5px;
+    bottom: 3px;
+    width: 4.5em;
+    height:auto;
+    border-radius:150px;
+}
+
+.carousel-inner {
+    overflow:visible;
+}
+
+.carousel-caption{
+    bottom: -95px;
+    margin-top: 20px;
+}
+
+
+/* HTML EXTERNOS */
+
+/* ORDENAR */
+
+/* BANNER PERRITOS */
+
+#banner-principal{
+    @include medidas(400px, hidden);
+}
+
+.subtitulo-ordenar{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.spot-ordenar{
+    &:hover{
+        transform: translateY(-8px);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        transition: all 0.2s;
+    }
+}
+
+.subtitulo-ordenar-b{
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+}
+
+.titulo-principal-ordenar-b{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: none;
+    margin-bottom: 2em;
+}
+
+.subtitulo-ordenar, .titulo-principal-ordenar{
+    color: #000;
+}
+
+.ordenar-banner{
+    width: 100%;
+}
+
+.titulo-principal-ordenar{
+    max-width: 40%;
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    font-size:nth($titulos, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* SECCION ELEGIR */
+
+#elegir{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .row{
+        justify-content: center;
+    }
+}
+
+
+.spot-ordenar {
+    text-align: center;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 20px;
+    img{
+        max-width: 50%;
+    }
+}
+
+#elegir {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background-color: #ffffff;
+}
+
+
+.subtitulo-ordenar-b{
+    display: none;
+}
+
+.titulo-principal-ordenar-b{
+    display: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.dog-size{
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+.boton-elegir{
+    margin: 10px;
+    @extend %botones;
+    a{
+        text-decoration: none;
+        text-transform:uppercase;
+        color: #ffffff;
+    }
+}
+
+
+/* TIENDA DOGIBOX */
+
+#tienda{
+    margin-top: 3em;
+    .row{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+#banner-principal{
+    .titulo-principal-tienda{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+    }
+}
+
+.ordenar-banner{
+    width: 100vw;
+}
+
+.titulo-principal-tienda{
+    max-width: 60%;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.spot-tienda{
+    text-align: center;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    img{
+        max-width: 50%;
+    }
+}
+
+.nombre-producto{
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.precio{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+.boton-elegir-tienda{
+    background-color: $DogiColor;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    padding: 8px 10px;
+    border-radius: 25px;
+    display: block;
+}
+
+.boton-elegir-tienda{
+    a{
+        text-decoration: none;
+        text-transform:uppercase;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+.titulo-principal-tienda-b{
+    margin-top: 2em;
+    display: none;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+}
+
+.spot-tienda{
+    &:hover{
+        transform: translateY(-8px);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        transition: all 0.2s;
+    }
+}
+
+/* SERVICIO DE ASISTENCIA */
+
+#banner-principal{
+    .titulo-principal-servicio{
+        max-width: 40%;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        color: #000;
+    }
+}
+
+.servicio-banner{
+    width: 100%;
+}
+
+
+.botones-servicio{
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.boton1{
+    border: map-get($botonPregunta, border-pregunta);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 200px;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 25px;
+    a{
+        text-decoration: none;
+        text-transform:uppercase;
+        color: #ffffff;
+    }
+}
+
+
+.boton2{
+    border: map-get($botonCuenta, border-cuenta);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 25px;
+    a{
+        text-decoration: none;
+        text-transform:uppercase;
+        color: #ffffff;
+    }
+}
+
+
+
+#formulario{
+    padding: 40px 100px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background-color: #ffffff;
+}
+
+form{
+    text-align: center;
+    padding: 2em;
+}
+
+.nombre-apellido input, .correo-tel input{
+    display: inline-block;
+    width: 40%;
+    padding: .5em;
+    margin-bottom: .5em;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: .5em;
+}
+
+#pedido, #referencia, #peticion, #boton-enviar{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    padding: .5em;
+    margin-bottom: .5em;
+    font-family: 'Raleway', sans-serif;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: .5em;
+}
+
+#boton-enviar{
+    background-color: $DogiColor;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: .5em;
+}
+
+.info-servicio{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+
+.titulo-principal-servicio-b{
+    display: none;
+}
+
+.titulo-principal-servicio-b{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 576px){
+    .titulo-principal{
+        display: none;
+    }
+    .boton-saber{
+        display: none;
+    }
+    #banner-principal {
+        top: 6vh;
+    }
+    .central{
+        margin-top: 15%;
+    }
+    .titulo-principal-b{
+        display: inline-block;
+    }
+
+    .subtitulo-ordenar, .titulo-principal-ordenar{
+        display: none;
+    }
+
+    .titulo-principal-servicio{
+        display: none;
+    }
+
+    .spot-tienda{
+        width: 60%;
+    }
+    .spot-ordenar{
+        width: 60%;
+    }
+
+    .subtitulo-ordenar-b{
+        display: inline-block;
+    }
+
+    .titulo-principal-ordenar-b{
+        display: inline-block;
+    }
+
+    .titulo-principal-tienda-b{
+        display: inline-block;
+    }
+
+    .titulo-principal-tienda{
+        display: none;
+    }
+
+    .titulo-principal-servicio-b{
+        display: inline-block;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    #banner-principal{
+        top: 5vh;
+    }
+    #elegir{
+        flex-wrap: nowrap;
+    }
+    .spot-ordenar{
+        width: 35%;
+    }
+    .spot-tienda{
+        width: 40%;
+    }
+
+    
+}
+
+@media only screen and (min-width: 992px){
+    .spot-ordenar{
+        width: 20%;
+    }
+    .spot-tienda{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .titulo-principal{
+        max-width: 60%;
+        top: 20%;
+        left: 5%;
+        font-size: 2em;
+    }
+
+    .titulo-principal-ordenar{
+        max-width: 30%;
+        top: 30%;
+        left: 5%;
+        font-size: 2em;
+    }
+
+    .subtitulo-ordenar{
+        top: 15%;
+    }
+    
+}

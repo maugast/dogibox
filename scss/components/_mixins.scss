@@ -1,0 +1,6 @@
+/* MIXINS */
+
+@mixin medidas($ancho, $visibilidad){
+	max-height:$ancho;
+	overflow: $visibilidad;
+}
