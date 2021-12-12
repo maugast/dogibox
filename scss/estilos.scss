@@ -43,19 +43,6 @@ $DogiColor: #01abdc;
 }
 
 
-.boton-saber{
-    position: absolute;
-    bottom: 15%;
-    left: 5%;
-    @extend %botones;
-
-    a{
-        text-decoration: none;
-        text-transform:uppercase;
-        color: #ffffff;
-    }
-}
-
 #banner-principal {
     video{
         width: 100%;
