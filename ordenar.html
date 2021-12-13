@@ -87,9 +87,9 @@
             <div class="spot-ordenar">
               <img src="imagenes/Mini.png" alt="Mini">
               <h3 class="dog-size">Mini (hasta 4kg.)</h3>
-              <span class="boton-elegir">
-                <a href="#">elegir</a>
-              </span>
+              <button type="button" class="btn boton-elegir" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                elegir
+              </button>
             </div>
 
             <div class="spot-ordenar">
@@ -103,17 +103,17 @@
             <div class="spot-ordenar">
               <img src="imagenes/Mittel.png" alt="Mediano">
               <h3 class="dog-size">Medio (hasta 20kg.)</h3>
-              <span class="boton-elegir">
-                <a href="#">elegir</a>
-              </span>
+              <button type="button" class="btn boton-elegir" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                elegir
+              </button>
             </div>
 
             <div class="spot-ordenar">
               <img src="imagenes/Grob.png" alt="Grande">
               <h3 class="dog-size">Grande (más de 20kg.)</h3>
-              <span class="boton-elegir">
-                <a href="#">elegir</a>
-              </span>
+              <button type="button" class="btn boton-elegir" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                elegir
+              </button>
             </div>
           </div>
 
@@ -122,24 +122,24 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Ingresa tu pedido</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <form>
                     <div class="mb-3">
-                      <label for="recipient-name" class="col-form-label">Recipient:</label>
+                      <label for="recipient-name" class="col-form-label">Tipo de suscripción</label>
                       <input type="text" class="form-control" id="recipient-name">
                     </div>
                     <div class="mb-3">
-                      <label for="message-text" class="col-form-label">Message:</label>
+                      <label for="message-text" class="col-form-label">Detalles:</label>
                       <textarea class="form-control" id="message-text"></textarea>
                     </div>
                   </form>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Send message</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
               </div>
             </div>
@@ -161,6 +161,7 @@
   <!-- Footer -->
   <footer class="container-fluid">
     <img class="logo-footer" src="imagenes/dogibox-logo-2.png" width="40%" alt="logo-dogibox">
+    <img class="metodos-pago" src="imagenes/dogi-payment-shippinginfo.png" alt="metodos de pago">
     <nav class="row">
       <ul class="social">
             

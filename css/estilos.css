@@ -241,6 +241,12 @@ body {
   justify-content: center;
 }
 
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 25px;
+}
+
 .spot-ordenar {
   text-align: center;
   box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -250,6 +256,9 @@ body {
 }
 .spot-ordenar img {
   max-width: 50%;
+}
+.spot-ordenar button {
+  text-transform: uppercase;
 }
 
 #elegir {
