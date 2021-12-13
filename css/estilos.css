@@ -30,8 +30,16 @@ footer img {
   max-width: 150px;
   margin: 0px;
 }
+footer nav {
+  display: inline-block;
+  width: 100%;
+}
 footer nav ul li {
   list-style: none;
+}
+footer .legales {
+  display: block;
+  width: 8em;
 }
 
 .social {
@@ -68,7 +76,7 @@ footer nav ul li {
 /* EXTENDS */
 /* VARIABLES */
 /* Placeholder */
-.boton-elegir, .boton-saber {
+.boton-elegir {
   background-color: #01abdc;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -106,17 +114,6 @@ body {
   left: 5%;
   font-size: 2.5em;
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
-}
-
-.boton-saber {
-  position: absolute;
-  bottom: 15%;
-  left: 5%;
-}
-.boton-saber a {
-  text-decoration: none;
-  text-transform: uppercase;
   color: #ffffff;
 }
 

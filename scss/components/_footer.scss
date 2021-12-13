@@ -14,11 +14,18 @@ footer{
             margin: 0px;
         }
         nav{
+            display: inline-block;
+            width: 100%;
             ul{
                 li{
                     list-style: none;
                 }
             }
+        }
+        .legales{
+            display: block;
+            width: 8em;
+            
         }
 }
 
