@@ -26,20 +26,24 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+footer .logo-footer {
+  margin-top: -25px;
+}
+footer .social {
+  margin-top: 18px;
+}
 footer img {
   max-width: 150px;
   margin: 0px;
 }
-footer nav {
-  display: inline-block;
-  width: 100%;
-}
 footer nav ul li {
   list-style: none;
 }
-footer .legales {
-  display: block;
-  width: 8em;
+
+.legales {
+  background-color: darkslategrey;
+  color: #ffffff;
+  text-align: center;
 }
 
 .social {

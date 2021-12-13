@@ -9,26 +9,32 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+        .logo-footer{
+            margin-top: -25px;
+        }
+        .social{
+            margin-top: 18px;
+        }
         img{
             max-width: 150px;
             margin: 0px;
         }
         nav{
-            display: inline-block;
-            width: 100%;
+
             ul{
                 li{
                     list-style: none;
                 }
             }
         }
-        .legales{
-            display: block;
-            width: 8em;
-            
-        }
+
 }
 
+.legales{
+    background-color: darkslategrey;
+    color: #ffffff;
+    text-align: center;
+}
 
 .social{
     display: flex;
