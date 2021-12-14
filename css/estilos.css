@@ -29,6 +29,9 @@ footer {
 footer .logo-footer {
   margin-top: -25px;
 }
+footer .metodos-pago {
+  width: 80%;
+}
 footer .social {
   margin-top: 18px;
 }
