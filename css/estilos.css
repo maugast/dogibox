@@ -171,10 +171,6 @@ body {
   margin-top: 20px;
 }
 
-.parallax-01 {
-  background-image: url("imagenes/dog_parallax_01.png");
-}
-
 /* HTML EXTERNOS */
 /* ORDENAR */
 /* BANNER PERRITOS */
@@ -287,6 +283,10 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.parallax-ordenar {
+  background-image: url("dog-parallax-01.png");
 }
 
 /* TIENDA DOGIBOX */
