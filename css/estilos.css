@@ -187,7 +187,6 @@ body {
 }
 
 .spot-ordenar:hover {
-  transform: scale(50%);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   transition: all 0.2s;
 }
@@ -331,6 +330,7 @@ body {
 }
 .spot-tienda img {
   max-width: 50%;
+  border-radius: 50%;
 }
 
 .nombre-producto {
@@ -372,9 +372,9 @@ body {
 }
 
 .spot-tienda:hover {
-  transform: translateY(-8px);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-  transition: all 0.2s;
+  background: linear-gradient(180deg, rgba(1, 171, 220, 0.3281687675) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
 }
 
 .parallax-tienda {
