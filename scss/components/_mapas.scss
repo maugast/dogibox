@@ -3,6 +3,7 @@
 $botonPregunta: (
     /* Key - Value */
     border-pregunta:solid  1px  #ffffff,
+    background-pregunta: rgba(255, 255, 255, 0),
     color-pregunta: #ffffff,
     font-pregunta: 'Raleway', sans-serif
     position-pregunta: absolute,
@@ -15,6 +16,7 @@ $botonPregunta: (
 $botonCuenta: (
     /* Key - Value */
     border-cuenta:solid  1px  #ffffff,
+    background-cuenta: rgba(255, 255, 255, 0),
     color-cuenta: #ffffff,
     font-cuenta: 'Raleway', sans-serif
     position-cuenta: absolute,
