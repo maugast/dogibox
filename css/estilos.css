@@ -42,6 +42,9 @@ footer img {
 footer nav ul li {
   list-style: none;
 }
+footer nav ul li img {
+  width: 25%;
+}
 
 .social {
   display: flex;
