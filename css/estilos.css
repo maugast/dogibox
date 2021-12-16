@@ -417,7 +417,8 @@ body {
 }
 
 .boton1 {
-  color: #ffffff;
+  border: solid 1px #ffffff;
+  background-color: rgba(255, 255, 255, 0);
   font-family: "Raleway", sans-serif;
   position: absolute;
   top: 200px;
@@ -432,7 +433,8 @@ body {
 }
 
 .boton2 {
-  color: #ffffff;
+  border: solid 1px #ffffff;
+  background-color: rgba(255, 255, 255, 0);
   font-family: "Raleway", sans-serif;
   position: absolute;
   top: 200px;
@@ -445,6 +447,12 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+}
+.boton2 a:hover {
+  color: #01abdc;
+}
+.boton2:hover {
+  background-color: #ffffff;
 }
 
 #formulario {
