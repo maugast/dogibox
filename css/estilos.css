@@ -77,6 +77,12 @@ footer nav ul li img {
   text-align: center;
 }
 
+.legal {
+  background-color: darkslategrey;
+  color: #ffffff;
+  margin: 0%;
+}
+
 /* EXTENDS */
 /* VARIABLES */
 /* Placeholder */
@@ -418,7 +424,7 @@ body {
 
 .boton1 {
   border: solid 1px #ffffff;
-  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
   font-family: "Raleway", sans-serif;
   position: absolute;
   top: 200px;
@@ -434,7 +440,7 @@ body {
 
 .boton2 {
   border: solid 1px #ffffff;
-  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
   font-family: "Raleway", sans-serif;
   position: absolute;
   top: 200px;
@@ -447,12 +453,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
-}
-.boton2 a:hover {
-  color: #01abdc;
-}
-.boton2:hover {
-  background-color: #ffffff;
 }
 
 #formulario {
