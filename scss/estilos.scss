@@ -10,6 +10,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     }
 
 body {
@@ -102,6 +103,19 @@ $DogiColor: #01abdc;
     margin-top: 20px;
 }
 
+
+.legal{
+    background-color: darkslategrey;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: -1rem;
+    .pie-pagina{
+        margin-top: 0;
+        margin-bottom: 0rem;
+        padding: 0.5rem;
+    }
+}
 
 /* HTML EXTERNOS */
 
