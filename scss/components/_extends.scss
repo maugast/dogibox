@@ -14,3 +14,12 @@ $DogiColor: #01abdc;
     padding: 8px 10px;
     border-radius: 25px;
 }
+
+%parallax{
+    height: 200px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 40px 0px;
+}
