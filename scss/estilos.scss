@@ -413,6 +413,12 @@ $DogiColor: #01abdc;
     display: inline-block;
     padding: 8px 10px;
     border-radius: 25px;
+    &:hover{
+        background-color: #ffffff;
+        a{
+            color:$DogiColor;
+        }
+    }
     a{
         text-decoration: none;
         text-transform:uppercase;
@@ -431,6 +437,12 @@ $DogiColor: #01abdc;
     display: inline-block;
     padding: 8px 10px;
     border-radius: 25px;
+    &:hover{
+        background-color: #ffffff;
+        a{
+            color:$DogiColor;
+        }
+    }
     a{
         text-decoration: none;
         text-transform:uppercase;
@@ -570,6 +582,11 @@ form{
     .titulo-animacion-aux{
         display: block;
     }
+
+    #formulario{
+        padding: 40px 33px;
+    }
+    
 }
 
 

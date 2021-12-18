@@ -464,6 +464,12 @@ body {
   padding: 8px 10px;
   border-radius: 25px;
 }
+.boton1:hover {
+  background-color: #ffffff;
+}
+.boton1:hover a {
+  color: #01abdc;
+}
 .boton1 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -480,6 +486,12 @@ body {
   display: inline-block;
   padding: 8px 10px;
   border-radius: 25px;
+}
+.boton2:hover {
+  background-color: #ffffff;
+}
+.boton2:hover a {
+  color: #01abdc;
 }
 .boton2 a {
   text-decoration: none;
@@ -618,6 +630,10 @@ form {
 
   .titulo-animacion-aux {
     display: block;
+  }
+
+  #formulario {
+    padding: 40px 33px;
   }
 }
 @media only screen and (min-width: 768px) {
