@@ -88,7 +88,7 @@ footer nav ul li img {
   border-radius: 25px;
 }
 
-.parallax-ordenar {
+.parallax-servicio, .parallax-tienda, .parallax-ordenar {
   height: 200px;
   width: 100%;
   background-attachment: fixed;
@@ -428,13 +428,7 @@ body {
 }
 
 .parallax-tienda {
-  height: 200px;
-  width: 100%;
   background-image: url("../imagenes/dog-parallax-02.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 40px 0px;
 }
 
 /* SERVICIO DE ASISTENCIA */
@@ -548,13 +542,7 @@ form {
 }
 
 .parallax-servicio {
-  height: 200px;
-  width: 100%;
   background-image: url("../imagenes/dog-parallax-03.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 40px 0px;
 }
 
 /* MEDIA QUERIES */
