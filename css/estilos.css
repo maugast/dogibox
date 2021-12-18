@@ -175,6 +175,30 @@ body {
   margin-top: 20px;
 }
 
+.contenedor-animacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.contenedor-animacion .item-animacion {
+  max-width: 25%;
+  margin: 10px;
+}
+.contenedor-animacion .item-animacion h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+.titulo-animacion-aux {
+  text-align: center;
+  padding: 10px;
+  display: none;
+  padding: 0px 63px;
+}
+.titulo-animacion-aux h5 {
+  font-family: "Poppins", sans-serif;
+}
+
 .legal {
   background-color: darkslategrey;
   color: #ffffff;
@@ -586,6 +610,14 @@ form {
 
   .titulo-principal-servicio-b {
     display: inline-block;
+  }
+
+  .texto-animacion {
+    display: none;
+  }
+
+  .titulo-animacion-aux {
+    display: block;
   }
 }
 @media only screen and (min-width: 768px) {

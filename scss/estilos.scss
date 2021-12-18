@@ -103,6 +103,29 @@ $DogiColor: #01abdc;
     margin-top: 20px;
 }
 
+.contenedor-animacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    .item-animacion{
+        max-width: 25%;
+        margin: 10px;
+        h4{
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+
+.titulo-animacion-aux{
+    text-align: center;
+    padding: 10px;
+    display: none;
+    padding: 0px 63px;
+    h5{
+        font-family: 'Poppins', sans-serif;
+    }
+}
 
 .legal{
     background-color: darkslategrey;
@@ -116,6 +139,7 @@ $DogiColor: #01abdc;
         padding: 0.5rem;
     }
 }
+
 
 /* HTML EXTERNOS */
 
@@ -540,7 +564,12 @@ form{
     .titulo-principal-servicio-b{
         display: inline-block;
     }
-
+    .texto-animacion{
+        display: none;
+    }
+    .titulo-animacion-aux{
+        display: block;
+    }
 }
 
 
